@@ -20,7 +20,8 @@ build() {
         --name "Facebook Messenger" \
         --verbose \
         --single-instance \
-		--internal-urls www.messenger.com \
+	--internal-urls "" \
+        --strict-internal-urls \
         --tray \
         https://messenger.com/
 }
